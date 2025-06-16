@@ -818,9 +818,13 @@ a{
         margin-bottom: 30px;
     }
 
-    .nuevoD {
+   
+   .nuevoD {
         gap: 8px;
+        flex-direction: column;
+        align-items: center;
     }
+
 
     h6 {
         color: black;
@@ -832,23 +836,23 @@ a{
     }
 
     .precio {
-        padding-left: 20px;
+        padding-left: 102px;
     }
 
     .bloques {
-        width: 101px;
+        width: 250px;
     }
     .listas {
-        font-size: 10px;
+        font-size: 17px;
     }
 
     .an {
-        margin-right: 2px;
-        font-size: 14px;
+        margin-right: 7px;
+        font-size: 20px;
     }
 
     .letra {
-        font-size: 7px;
+        font-size: 18px;
         margin-bottom: 9px;
     }
 
@@ -862,7 +866,8 @@ a{
         height: 44px;
     }
     .ulti {
-    padding: 10px 9px;
+    
+    padding-left: 85px;
 }
 
 
