@@ -1,0 +1,881 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 23, 47);
+    align-items: center;
+   
+}
+
+.imagen1{
+    height: 70px;
+}
+
+.imagen1:hover{
+    box-shadow: 10px 5px 10px rgb(4, 248, 93);
+}
+
+.botones a {   
+    color: rgb(124, 119, 133);
+    text-decoration: none;
+   font-size: 22px;
+   margin-right: 34px;   
+}
+
+.botones a:hover{
+    color: rgb(243, 243, 243);
+    box-shadow: 5px 5px 10px rgb(247, 245, 245);
+}
+
+.boto{
+    border-radius: 9px;
+    width: 115px;
+    height: 49px;
+    background: linear-gradient(to right, rgb(112,70,213), rgb(13,123,213));
+    color:rgb(30, 23, 47) ;
+        
+}
+
+.boto:hover{
+    color: rgb(246, 246, 246);
+    box-shadow: 5px 5px 10px rgb(247, 245, 245);
+}
+
+/* sección 1 */
+
+
+.seccion{
+    display: flex;
+    
+   
+}
+
+ h1{
+    font-size: 89px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+
+}
+
+.sec p {
+    font-size: 27px;
+    margin-left: 195px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 47px;
+
+
+}
+
+.sec{
+
+display: flex;
+background-color: rgb(46, 37, 80);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: justify;
+padding: 13px;
+}
+
+.botonesSec{
+    position: static;
+    border: 1px solid  rgb(255, 255, 255);
+    border-radius: 9px;
+    margin-left: 57px; 
+    visibility: hidden; /* Oculto completamente para que no se pueda interactuar con él */
+}
+
+.botonesSec.show{
+    opacity: 1;      /* Hacerlos completamente visibles */
+     visibility: visible; /* Hacerlos interactivos */
+
+} 
+
+
+.botonP2{ 
+   
+   
+    border-color:  rgb(255, 255, 255);
+    color:  rgb(255, 255, 255);
+    border-radius: 9px;
+    background-color: transparent;
+    width: 186px;
+    height: 55px;
+    margin: 8px 4px;
+    font-size: 18px;
+   
+}
+
+.botonP2:hover{
+    
+     box-shadow: 0 2px 5px rgb(245, 243, 243); /* Sombra sutil */
+}
+
+.botonP{
+    border-color: black;
+    border-radius: 9px;
+    color: rgb(255, 0, 230);
+    width: 186px;
+    height: 55px;
+    margin: 8px 4px;
+    font-size: 18px;
+   
+}
+
+.botonP:hover{
+    
+     box-shadow: 0 2px 5px rgb(255, 255, 255); /* Sombra sutil */
+}
+
+
+
+.sec2{
+    flex: 1;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:  url("/assets/hojasFondo.jpg");
+    
+}
+
+.img2{
+    display: flex;   
+    justify-content: center;
+    margin-top: 141px;
+    margin-right: 175px;
+    height: 500px;
+}
+
+/* seccion dos  */
+
+#funcionalidad{
+    padding-bottom: 50px;
+    background-color: #f1f2f7;
+    
+}
+
+.imgFun{
+   height: 400px;
+     
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-bottom: 70px;
+    color: rgb(244, 20, 134); 
+   
+}
+
+h3{
+    font-size: 60px;
+    color: rgb(244, 20, 134);
+    padding-bottom: 52px;
+
+}
+
+.parrafo2{
+    font-size: 30px;
+    padding-bottom: 26px;
+
+}
+
+.mar {
+    font-size: 26px;
+    list-style: none;
+    color: rgb(244, 20, 134);
+    padding-bottom: 13px;
+}
+
+.fila{
+    font-size: 21px;
+    list-style: none;
+    
+}
+
+.icon_{
+    height: 20px;
+    margin-right: 16px;
+}
+
+/* tercera parte  */
+
+#tercero{
+    background-color: rgb(30, 23, 47);
+    padding-bottom: 100px;
+}
+
+
+.ter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    padding-bottom: 27px;
+    padding-top: 50px;
+    color:  rgb(255, 255, 255);
+    
+}
+
+.tercero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color:  rgb(255, 255, 255);
+
+}
+
+/* Bloques */
+
+
+
+
+h5{
+    color: rgb(244,23,136) ;
+    font-size: 24px;
+}
+
+h6{
+    color: black;
+     font-size: 24px;
+}
+.nuevoD{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.bloques{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background-color: rgb(255, 255, 255) ;
+    flex-direction: column;
+    width: 354px;
+    border-radius: 8px;
+}
+
+.precio{
+    background-color: #f1f2f7;
+    padding: 17px 118px;
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+.par{
+    font-size: 22px;
+}
+
+.su{
+    font-size: 14px;
+}
+
+
+
+.listas {
+    font-size: 23px;
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+
+
+.an{
+    filter: brightness(0) saturate(100%) invert(26%) sepia(95%) saturate(4847%) hue-rotate(316deg) brightness(98%) contrast(94%);
+    margin-right: 20px;
+    font-size: 21px;
+}
+
+.ca{
+    filter: brightness(0) saturate(100%) invert(28%) sepia(16%) saturate(17%) hue-rotate(338deg) brightness(91%) contrast(89%);
+    margin-right: 20px;
+    font-size: 21px;
+
+}
+
+.letra{
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+
+.ulti{
+    background-color: #f1f2f7;
+    padding: 17px 118px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.ultimoB{
+    color:  rgb(255, 255, 255);
+     background-image: linear-gradient(to right, rgb(236,99,170), rgb(244,23,136));
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: double;
+        margin-top: 10px;
+    
+}
+
+.ultimoB1{
+    color:  rgb(255, 255, 255);
+     background-image: linear-gradient(to right, rgb(42,70,120), rgb(46,37,80));
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+     border-radius: 8px;
+    border: double;
+    margin-top: 10px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 26px 26px;
+}
+
+.nombre{
+    color:rgb(244,23,136) ;
+}
+
+
+
+.redes{
+        display: flex;
+    align-items: center;
+    gap: 21px;
+
+}
+
+h4{
+    color: black;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+    @media (max-width:1279px){
+
+        h1{
+            font-size: 69px;
+        }
+
+        .sec p{
+            font-size: 19px;
+            margin-left: 94px;
+        }
+
+        .botonP {
+            width:145px;
+        }
+        
+
+        .botonP2{
+            width: 147px;
+        }
+
+
+        .texto {
+    font-size: 66px;
+    margin-bottom: 55px;
+    }
+
+        .img2 {
+    
+    margin-top: 107px;
+    margin-right: 70px;
+    height: 455px;
+    }
+
+    .imgFun {
+    height: 276px;
+    }   
+
+    h3 {
+    font-size: 51px;
+    padding-bottom: 39px;
+    }
+
+    .parrafo2 {
+    font-size: 21px;
+    padding-bottom: 16px;
+    }
+
+    .mar {
+    font-size: 23px;
+    padding-bottom: 9px;
+    }
+
+
+    .fila {
+    font-size: 18px;;
+    }
+        .bloques{
+            width: 250px;
+        }
+
+        .ultimoB{
+            margin-top: 0px;
+        }
+        .ultimoB1{
+            margin-top: 0px;
+        }
+
+        .precio{
+            padding-right: 0px;
+            padding-left: 94px;
+        }
+
+        .par {
+            font-size: 28px;
+        }
+
+        .listas {
+            font-size: 17px;
+           
+        }
+
+        
+        .an {
+    
+            margin-right: 15px;
+            font-size: 18px;
+        }
+
+        .ca {
+            margin-right: 6px;
+            font-size: 14px;
+        }
+
+        .letra {
+            font-size: 18px;
+            margin-bottom: 24px;
+        }
+
+        .ulti {
+            padding-left: 61px;
+        }
+
+
+
+        }
+
+
+
+        @media(max-width: 920px){
+
+
+
+                .imagen1 {
+                    height: 55px;
+                    }
+
+                .boto {
+                    width: 92px;
+                    height: 44px;
+                    }
+
+                .sec p {
+                    font-size: 16px;
+                    margin-left: 107px;
+                    }
+
+                
+                .botones a {
+                    font-size: 20px;
+                    margin-right: 12px;
+                    }
+
+                .sec p {
+                    font-size: 17px;
+                    margin-left: 71px;
+                    }
+
+                .img2 {
+                    margin-top: 154px;
+                    margin-right: 76px;
+                    height: 383px;
+                    }
+
+                .botonP {
+                    width: 125px;
+                    font-size: 15px;
+                    }
+
+                .botonP2 {
+                    width: 132px;
+                    font-size: 15px;
+                    }
+
+                    .texto {
+                    font-size: 54px;
+                    margin-bottom: 34px;
+                    }
+
+                .imgFun {
+                    height: 246px;
+                    }
+
+                h3 {
+                    font-size: 25px;
+                    padding-bottom: 25px;
+                    }
+
+                    .parrafo2 {
+                    font-size: 16px;
+                    padding-bottom: 9px;
+                    }
+
+                    .mar {
+                    font-size: 20px;
+                    padding-bottom: 6px;
+                    }
+
+                .fila {
+                    font-size: 16px;
+                    }
+
+                    
+                .icon_ {
+                    height: 17px;
+                    margin-right: 5px;
+                    }
+
+                .ter{
+   
+                    font-size: 44px;
+                    padding-bottom: 27px;
+                    padding-top: 40px;
+                    
+                    }
+
+                .tercero {
+ 
+                    font-size: 16px;
+                    margin-bottom: 50px;
+                    }
+
+                .bloques {
+                    width: 200px;
+                    }
+
+                .precio {
+                    padding-left: 61px;
+                     }
+
+                .su {
+                    font-size: 10px;
+                    }
+
+                .listas {
+                    font-size: 14px;
+                    }
+                .letra {
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                    }
+                .ulti {
+                    padding-left: 32px;
+                    }
+
+        }
+
+
+        @media(max-width:768px){
+
+              
+
+
+
+            /* segundo */
+
+                .botonP {
+                    width: 99px;
+                    font-size: 10px;
+                    }
+
+                .sec p {
+                    font-size: 17px;
+                    margin-left: 24px;
+                    }
+
+                h1 {
+                    font-size: 51px;
+                    }
+
+                .sec{
+                    padding: 0px;
+                    width: 50%;
+                    } 
+
+
+                    
+
+                .img2 {
+                    margin-top: 115px;
+                    margin-right: 0px; 
+                    height: 263px;
+                    }
+                .sec2{
+                    height: 72vh;
+                }
+
+                .imgFun {
+                    height: 135px;
+                    }
+
+            /* mitad */
+                .imgFun {
+                    height: 135px;
+                    }
+
+
+                h3 {
+                    font-size: 23px;
+                    padding-bottom: 8px;
+                    }
+                .texto {
+                    font-size: 42px;
+                    margin-bottom: 25px;
+                    }
+
+                .parrafo2 {
+                    font-size: 12px;
+                    padding-bottom: 8px;
+                    }
+                .mar {
+                    font-size: 18px;
+                    padding-bottom: 5px;
+                    }
+
+                .fila {
+                    font-size: 14px;
+                    }
+
+            /* bloques */
+                .tercero {
+                    font-size: 11px;
+                    margin-bottom: 31px;
+                    }
+
+                .nuevoD {
+                    gap: 10px;
+                    }
+                .bloques {
+                    width: 144px;
+                    }
+                .nuevoD {
+                    gap: 13px;
+                     }
+                .an {
+                    margin-right: 14px;
+                    font-size: 15px;
+                    }
+
+                .precio {
+                    padding-left: 42px;
+                    }
+
+                .par {
+                    font-size: 22px;
+                    }
+                .su {
+                    font-size: 7px;
+                    }
+                .letra {
+                    font-size: 11px;
+                    margin-bottom: 13px;
+                    }
+
+                .ulti {
+                    padding-left: 8px;
+                    }
+
+                .ultimoB1 {
+        
+                    width: 119px;
+                    height: 45px;
+                    }
+
+                .ultimoB {
+                    width: 119px;
+                    height: 45px;
+                    }
+
+                #tercero {
+    
+                    padding-bottom: 30px;
+                    }
+
+                    footer{
+                        font-size: 50px;
+                    }
+
+                }
+
+
+  @media(max-width:480px)  {
+    /* inicio */
+
+        .imagen1 {
+        height: 40px;
+    }
+
+        .botones a {
+        font-size: 12px;
+        margin-right: 6px;
+    }
+
+        .boto {
+        width: 58px;
+        height: 26px;
+        font-size: 10px;
+    }
+
+        h1 {
+        font-size: 45px;
+        margin-bottom: 19px;
+    }
+        .sec p {
+        font-size: 16px;
+        margin-left: 25px;
+        margin-bottom: 35px;
+    }
+        .seccion {
+    flex-direction: column;
+    }
+        .sec {
+        padding: 0px;
+        width: 100%;
+    }
+        .img2 {
+        margin-bottom: 79px;
+        
+    }
+        .botonP {
+        width: 73px;
+        font-size: 9px;
+    }
+
+        .botonP2 {
+        width: 73px;
+        font-size: 11px;
+    }
+        .sec {
+        padding: 0px;
+        width: 100%;
+        padding-bottom: 26px;
+    }
+    .botonesSec {
+    margin-left: 12px;
+}
+
+/* segunda parte */
+
+.principal {
+    flex-direction: column;
+}
+
+    .imgFun {
+        margin-bottom: 36px;
+    }
+/* tercera bloques */
+
+    .ter {
+        font-size: 38px;
+         padding-bottom: 12px; 
+         padding-top: 16px; 
+    }
+
+    .tercero {
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+
+    .nuevoD {
+        gap: 8px;
+    }
+
+    h6 {
+        color: black;
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .precio {
+        padding-left: 20px;
+    }
+
+    .bloques {
+        width: 101px;
+    }
+    .listas {
+        font-size: 10px;
+    }
+
+    .an {
+        margin-right: 2px;
+        font-size: 14px;
+    }
+
+    .letra {
+        font-size: 7px;
+        margin-bottom: 9px;
+    }
+
+    .ultimoB {
+        width: 82px;
+        height: 42px;
+    }
+
+    .ultimoB1 {
+        width: 87px;
+        height: 44px;
+    }
+    .ulti {
+    padding: 10px 9px;
+}
+
+
+
+
+/* final */
+    footer {
+        font-size: 11px;
+    }
+
+    .redes {
+    gap: 10px;
+}
+
+    
+  }            
