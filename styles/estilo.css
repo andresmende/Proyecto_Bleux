@@ -141,7 +141,7 @@ padding: 13px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:  url("/assets/hojasFondo.jpg");
+    background-image:  url("../assets/hojasFondo.jpg");
     
 }
 
@@ -764,7 +764,7 @@ a{
     }
         .sec p {
         font-size: 16px;
-        margin-left: 25px;
+        margin-left: 12px;
         margin-bottom: 35px;
     }
         .seccion {
