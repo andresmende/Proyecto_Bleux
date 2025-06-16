@@ -141,7 +141,7 @@ padding: 13px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:  url("/assets/hojasFondo.jpg");
+    background-image:  url("../assets/hojasFondo.jpg");
     
 }
 
